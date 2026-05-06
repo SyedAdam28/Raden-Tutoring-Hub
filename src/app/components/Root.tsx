@@ -3,6 +3,7 @@ import { Menu, X, GraduationCap, Sun, Moon, Instagram } from "lucide-react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
+
 export default function Root() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [dark, setDark] = useState(() => {
